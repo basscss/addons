@@ -1,10 +1,10 @@
 {
   "name": "basscss-color-progress",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Progress element color module for Basscss",
   "repository": {
     "type": "git",
-    "url": "https://github.com/basscss/color-progress.git"
+    "url": "https://github.com/basscss/addons.git"
   },
   "keywords": [
     "css",
@@ -14,9 +14,9 @@
   "author": "Brent Jackson",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/basscss/color-progress/issues"
+    "url": "https://github.com/basscss/addons/issues"
   },
-  "homepage": "https://github.com/basscss/color-progress",
+  "homepage": "https://github.com/basscss/addons",
   "dependencies": {
     "basscss-defaults": "^2.0.1"
   }
