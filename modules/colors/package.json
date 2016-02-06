@@ -1,11 +1,11 @@
 {
   "name": "basscss-colors",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "Color styles module for Basscss",
   "style": "index.css",
   "repository": {
     "type": "git",
-    "url": "https://github.com/basscss/colors.git"
+    "url": "https://github.com/basscss/addons.git"
   },
   "keywords": [
     "CSS",
@@ -16,9 +16,9 @@
   "author": "Brent Jackson",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/basscss/colors/issues"
+    "url": "https://github.com/basscss/addons/issues"
   },
-  "homepage": "https://github.com/basscss/colors",
+  "homepage": "https://github.com/basscss/addons",
   "dependencies": {
     "basscss-defaults": "^2.0.1"
   }
