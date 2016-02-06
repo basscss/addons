@@ -1,0 +1,14 @@
+{
+  "name": "basscss-addons",
+  "version": "1.0.0",
+  "description": "Optional modules to extend Basscss",
+  "keywords": [
+    "basscss",
+    "functional-css",
+    "atomic",
+    "oocss",
+    "utility"
+  ],
+  "author": "Brent Jackson",
+  "license": "MIT"
+}

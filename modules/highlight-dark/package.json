@@ -1,0 +1,23 @@
+{
+  "name": "basscss-highlight-dark",
+  "version": "0.0.1",
+  "description": "Dark Highlight.js module for Basscss",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jxnblk/basscss-highlight-dark.git"
+  },
+  "keywords": [
+    "CSS",
+    "OOCSS",
+    "Basscss"
+  ],
+  "author": "Brent Jackson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jxnblk/basscss-highlight-dark/issues"
+  },
+  "homepage": "https://github.com/jxnblk/basscss-highlight-dark",
+  "dependencies": {
+    "colors.css": "^2.3.0"
+  }
+}

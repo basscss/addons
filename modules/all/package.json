@@ -1,0 +1,20 @@
+{
+  "name": "basscss-all",
+  "version": "1.0.0",
+  "description": "All utility for Basscss",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/basscss/all.git"
+  },
+  "keywords": [
+    "css",
+    "oocss",
+    "basscss"
+  ],
+  "author": "Brent Jackson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/basscss/all/issues"
+  },
+  "homepage": "https://github.com/basscss/all"
+}

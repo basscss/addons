@@ -1,0 +1,143 @@
+/* Basscss Highlight */
+
+@import "colors.css/myth/variables";
+
+.highlight-dark .hljs {
+  color: white;
+  -webkit-text-size-adjust: none;
+}
+
+.highlight-dark .hljs-comment,
+.highlight-dark .diff .hljs-header,
+.highlight-dark .hljs-javadoc {
+  color: var(--hljs-comment);
+  font-style: italic;
+}
+
+.highlight-dark .hljs-keyword,
+.highlight-dark .css .rule .hljs-keyword,
+.highlight-dark .hljs-winutils,
+.highlight-dark .nginx .hljs-title,
+.highlight-dark .hljs-subst,
+.highlight-dark .hljs-request,
+.highlight-dark .hljs-status {
+  color: var(--hljs-keyword);
+  font-weight: bold;
+}
+
+.highlight-dark .hljs-number,
+.highlight-dark .hljs-hexcolor,
+.highlight-dark .ruby .hljs-constant {
+  color: var(--hljs-number);
+}
+
+.highlight-dark .hljs-string,
+.highlight-dark .hljs-tag .hljs-value,
+.highlight-dark .hljs-phpdoc,
+.highlight-dark .hljs-dartdoc,
+.highlight-dark .tex .hljs-formula {
+  color: var(--hljs-string);
+}
+
+.hljs-title,
+.hljs-id,
+.scss .hljs-preprocessor {
+  color: var(--hljs-title);
+  font-weight: bold;
+}
+
+.highlight-dark .hljs-list .hljs-keyword,
+.highlight-dark .hljs-subst {
+  font-weight: normal;
+}
+
+.highlight-dark .hljs-class .hljs-title,
+.highlight-dark .hljs-type,
+.highlight-dark .vhdl .hljs-literal,
+.highlight-dark .tex .hljs-command {
+  color: var(--hljs-type);
+  font-weight: bold;
+}
+
+.highlight-dark .hljs-tag,
+.highlight-dark .hljs-tag .hljs-title,
+.highlight-dark .hljs-rules .hljs-property,
+.highlight-dark .django .hljs-tag .hljs-keyword {
+  color: var(--hljs-tag);
+  font-weight: normal;
+}
+
+.highlight-dark .hljs-attribute,
+.highlight-dark .hljs-variable,
+.highlight-dark .lisp .hljs-body {
+  color: var(--hljs-attribute);
+}
+
+.highlight-dark .hljs-regexp {
+  color: var(--hljs-regexp);
+}
+
+.highlight-dark .hljs-symbol,
+.highlight-dark .ruby .hljs-symbol .hljs-string,
+.highlight-dark .lisp .hljs-keyword,
+.highlight-dark .clojure .hljs-keyword,
+.highlight-dark .scheme .hljs-keyword,
+.highlight-dark .tex .hljs-special,
+.highlight-dark .hljs-prompt {
+  color: var(--hljs-symbol);
+}
+
+.highlight-dark .hljs-built_in {
+  color: var(--hljs-built-in);
+}
+
+.highlight-dark .hljs-preprocessor,
+.highlight-dark .hljs-pragma,
+.highlight-dark .hljs-pi,
+.highlight-dark .hljs-doctype,
+.highlight-dark .hljs-shebang,
+.highlight-dark .hljs-cdata {
+  color: var(--hljs-preprocessor);
+  font-weight: bold;
+}
+
+.highlight-dark .hljs-deletion {
+  background: var(--hljs-deletion);
+}
+
+.highlight-dark .hljs-addition {
+  background: var(--hljs-addition);
+}
+
+.highlight-dark .diff .hljs-change {
+  background: var(--hljs-change);
+}
+
+.highlight-dark .hljs-chunk {
+  color: var(--hljs-chunk);
+}
+
+
+:root {
+  --monospace-font-family: 'Source Code Pro', Consolas, monospace;
+
+  /* Mapped colors */
+  --hljs-comment: var(--silver);
+  --hljs-keyword: white;
+  --hljs-number: var(--lime);
+  --hljs-string: var(--red);
+  --hljs-title: var(--red);
+  --hljs-type: var(--aqua);
+  --hljs-tag: var(--aqua);
+  --hljs-attribute: var(--lime);
+  --hljs-regexp: var(--lime);
+  --hljs-symbol: var(--fuchsia);
+  --hljs-built-in: var(--aqua);
+  --hljs-preprocessor: var(--silver);
+  --hljs-deletion: var(--fuchsia);
+  --hljs-addition: var(--lime);
+  --hljs-change: var(--aqua);
+  --hljs-chunk: var(--gray);
+
+}
+

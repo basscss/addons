@@ -1,0 +1,34 @@
+/* Basscss Border Colors */
+
+.border-black  { border-color: var(--black) }
+.border-gray   { border-color: var(--gray) }
+.border-silver { border-color: var(--silver) }
+.border-white  { border-color: var(--white) }
+
+.border-aqua  { border-color: var(--aqua) }
+.border-blue  { border-color: var(--blue) }
+.border-navy  { border-color: var(--navy) }
+.border-teal  { border-color: var(--teal) }
+.border-green { border-color: var(--green) }
+.border-olive { border-color: var(--olive) }
+.border-lime  { border-color: var(--lime) }
+
+.border-yellow  { border-color: var(--yellow) }
+.border-orange  { border-color: var(--orange) }
+.border-red     { border-color: var(--red) }
+.border-fuchsia { border-color: var(--fuchsia) }
+.border-purple  { border-color: var(--purple) }
+.border-maroon  { border-color: var(--maroon) }
+
+.border-darken-1 { border-color: var(--darken-1) }
+.border-darken-2 { border-color: var(--darken-2) }
+.border-darken-3 { border-color: var(--darken-3) }
+.border-darken-4 { border-color: var(--darken-4) }
+
+.border-lighten-1 { border-color: var(--lighten-1) }
+.border-lighten-2 { border-color: var(--lighten-2) }
+.border-lighten-3 { border-color: var(--lighten-3) }
+.border-lighten-4 { border-color: var(--lighten-4) }
+
+@import 'basscss-defaults';
+

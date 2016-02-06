@@ -1,0 +1,13 @@
+/* Basscss Progress */
+
+progress {
+  display: block;
+  width: 100%;
+  height: calc( var(--form-field-height) / 4 );
+  margin: var(--form-field-padding-y) 0;
+  overflow: hidden;
+  -webkit-appearance: none;
+}
+
+@import 'basscss-defaults';
+

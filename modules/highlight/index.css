@@ -1,0 +1,141 @@
+/* Basscss Highlight */
+
+@import "colors.css/myth/variables";
+
+.hljs {
+  -webkit-text-size-adjust: none;
+}
+
+.hljs-comment,
+.diff .hljs-header,
+.hljs-javadoc {
+  color: var(--hljs-comment);
+  font-style: italic;
+}
+
+.hljs-keyword,
+.css .rule .hljs-keyword,
+.hljs-winutils,
+.nginx .hljs-title,
+.hljs-subst,
+.hljs-request,
+.hljs-status {
+  color: var(--hljs-keyword);
+  font-weight: bold;
+}
+
+.hljs-number,
+.hljs-hexcolor,
+.ruby .hljs-constant {
+  color: var(--hljs-number);
+}
+
+.hljs-string,
+.hljs-tag .hljs-value,
+.hljs-phpdoc,
+.hljs-dartdoc,
+.tex .hljs-formula {
+  color: var(--hljs-string);
+}
+
+.hljs-title,
+.hljs-id,
+.scss .hljs-preprocessor {
+  color: var(--hljs-title);
+  font-weight: bold;
+}
+
+.hljs-list .hljs-keyword,
+.hljs-subst {
+  font-weight: normal;
+}
+
+.hljs-class .hljs-title,
+.hljs-type,
+.vhdl .hljs-literal,
+.tex .hljs-command {
+  color: var(--hljs-type);
+  font-weight: bold;
+}
+
+.hljs-tag,
+.hljs-tag .hljs-title,
+.hljs-rules .hljs-property,
+.django .hljs-tag .hljs-keyword {
+  color: var(--hljs-tag);
+  font-weight: normal;
+}
+
+.hljs-attribute,
+.hljs-variable,
+.lisp .hljs-body {
+  color: var(--hljs-attribute);
+}
+
+.hljs-regexp {
+  color: var(--hljs-regexp);
+}
+
+.hljs-symbol,
+.ruby .hljs-symbol .hljs-string,
+.lisp .hljs-keyword,
+.clojure .hljs-keyword,
+.scheme .hljs-keyword,
+.tex .hljs-special,
+.hljs-prompt {
+  color: var(--hljs-symbol);
+}
+
+.hljs-built_in {
+  color: var(--hljs-built-in);
+}
+
+.hljs-preprocessor,
+.hljs-pragma,
+.hljs-pi,
+.hljs-doctype,
+.hljs-shebang,
+.hljs-cdata {
+  color: var(--hljs-preprocessor);
+  font-weight: bold;
+}
+
+.hljs-deletion {
+  background: var(--hljs-deletion);
+}
+
+.hljs-addition {
+  background: var(--hljs-addition);
+}
+
+.diff .hljs-change {
+  background: var(--hljs-change);
+}
+
+.hljs-chunk {
+  color: var(--hljs-chunk);
+}
+
+
+:root {
+  --monospace-font-family: 'Source Code Pro', Consolas, monospace;
+
+  /* Mapped colors */
+  --hljs-comment: var(--gray);
+  --hljs-keyword: var(--black);
+  --hljs-number: var(--olive);
+  --hljs-string: var(--red);
+  --hljs-title: var(--red);
+  --hljs-type: var(--navy);
+  --hljs-tag: var(--navy);
+  --hljs-attribute: var(--olive);
+  --hljs-regexp: var(--olive);
+  --hljs-symbol: var(--purple);
+  --hljs-built-in: var(--navy);
+  --hljs-preprocessor: var(--gray);
+  --hljs-deletion: var(--fuchsia);
+  --hljs-addition: var(--lime);
+  --hljs-change: var(--navy);
+  --hljs-chunk: var(--silver);
+}
+

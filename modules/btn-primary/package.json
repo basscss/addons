@@ -1,0 +1,23 @@
+{
+  "name": "basscss-btn-primary",
+  "version": "1.0.1",
+  "description": "Solid button color style module for Basscss",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/basscss/btn-primary.git"
+  },
+  "keywords": [
+    "basscss",
+    "css",
+    "oocss"
+  ],
+  "author": "Brent Jackson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/basscss/btn-primary/issues"
+  },
+  "homepage": "https://github.com/basscss/btn-primary",
+  "devDependencies": {
+    "basscss-defaults": "^2.0.1"
+  }
+}
