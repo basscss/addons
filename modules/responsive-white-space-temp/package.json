@@ -1,0 +1,21 @@
+{
+  "name": "basscss-responsive-white-space",
+  "version": "0.1.0",
+  "description": "Responsive white space margin and padding utilities module for Basscss",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jxnblk/basscss-responsive-white-space.git"
+  },
+  "keywords": [
+    "CSS",
+    "OOCSS",
+    "Basscss",
+    "Rework"
+  ],
+  "author": "Brent Jackson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jxnblk/basscss-responsive-white-space/issues"
+  },
+  "homepage": "https://github.com/jxnblk/basscss-responsive-white-space"
+}
