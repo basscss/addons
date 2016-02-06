@@ -1,10 +1,10 @@
 {
   "name": "basscss-highlight",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Highlight.js module for Basscss",
   "repository": {
     "type": "git",
-    "url": "https://github.com/jxnblk/basscss-highlight.git"
+    "url": "https://github.com/basscss/addons.git"
   },
   "keywords": [
     "CSS",
@@ -15,9 +15,9 @@
   "author": "Brent Jackson",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/jxnblk/basscss-highlight/issues"
+    "url": "https://github.com/basscss/addons/issues"
   },
-  "homepage": "https://github.com/jxnblk/basscss-highlight",
+  "homepage": "https://github.com/basscss/addons",
   "dependencies": {
     "colors.css": "^2.0.4"
   }
