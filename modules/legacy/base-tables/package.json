@@ -1,10 +1,10 @@
 {
   "name": "basscss-base-tables",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Base table styles for Basscss",
   "repository": {
     "type": "git",
-    "url": "https://github.com/basscss/base-tables.git"
+    "url": "https://github.com/basscss/addons.git"
   },
   "keywords": [
     "CSS",
@@ -15,9 +15,9 @@
   "author": "Brent Jackson",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/basscss/base-tables/issues"
+    "url": "https://github.com/basscss/addons/issues"
   },
-  "homepage": "https://github.com/basscss/base-tables",
+  "homepage": "https://github.com/basscss/addons",
   "dependencies": {
     "basscss-defaults": "^2.0.1"
   }
