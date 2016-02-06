@@ -1,0 +1,24 @@
+{
+  "name": "basscss-defaults",
+  "version": "2.1.1",
+  "description": "Default variables for Basscss",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/basscss/defaults.git"
+  },
+  "keywords": [
+    "CSS",
+    "OOCSS",
+    "Basscss",
+    "Rework"
+  ],
+  "author": "Brent Jackson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/basscss/defaults/issues"
+  },
+  "homepage": "https://github.com/basscss/defaults",
+  "dependencies": {
+    "colors.css": "^2.0.4"
+  }
+}
