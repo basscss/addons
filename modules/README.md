@@ -2,45 +2,11 @@
 # Notes
 
 ## Include in addons
-- all
-- background-colors
-- background-images
-- border-colors
-- btn-outline
-- btn-primary
-- btn-sizes
-- btn
-- colors
 
-- input-range
-- progress
-
-- highlight
-- highlight-dark
-
-- responsive-white-space
-  - split into responsive-margin & responsive-padding
-
-## New
-- forms
-- lighten
-- darken
-
-## Deprecate
-
-### Legacy
-- base-forms
-- base-reset
-- base-tables
-- base-typography
-- color-base
-- color-forms
-- color-input-range
-- color-progress
-- color-tables
-- flex-object
-- ui-groups
-
+- [ ] split responsive-white-space into margin/padding
+- [ ] basscss-form
+- [ ] basscss-lighten
+- [ ] basscss-darken
 
 ## Already in basscss/deprecated
 - align

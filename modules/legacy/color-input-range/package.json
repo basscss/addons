@@ -1,0 +1,27 @@
+{
+  "name": "basscss-color-input-range",
+  "version": "1.0.0",
+  "description": "Input range color module for Basscss",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/basscss/color-input-range.git"
+  },
+  "keywords": [
+    "css",
+    "oocss",
+    "basscss"
+  ],
+  "author": "Brent Jackson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/basscss/color-input-range/issues"
+  },
+  "homepage": "https://github.com/basscss/color-input-range",
+  "basscss": {
+    "category": "color",
+    "optional": true
+  },
+  "dependencies": {
+    "basscss-defaults": "^2.0.1"
+  }
+}

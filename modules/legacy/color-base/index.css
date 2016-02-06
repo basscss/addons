@@ -1,0 +1,43 @@
+/* Basscss Color Base */
+
+@import 'basscss-defaults';
+
+body {
+  color: var(--body-color);
+  background-color: var(--body-background-color);
+}
+
+a {
+  color: var(--link-color);
+  text-decoration: var(--link-text-decoration);
+}
+
+a:hover {
+  text-decoration: var(--link-hover-text-decoration);
+}
+
+pre, code {
+  background-color: var(--pre-background-color);
+  border-radius: var(--pre-border-radius);
+}
+
+hr {
+  border: 0;
+  border-bottom-style: var(--rule-border-style);
+  border-bottom-width: var(--rule-border-width);
+  border-bottom-color: var(--rule-border-color);
+}
+
+:root {
+  --body-color: var(--black);
+  --body-background-color: var(--white);
+  --link-color: var(--blue);
+  --link-text-decoration: none;
+  --link-hover-text-decoration: underline;
+  --pre-background-color: transparent;
+  --pre-border-radius: var(--border-radius);
+  --rule-border-style: solid;
+  --rule-border-width: var(--border-width);
+  --rule-border-color: var(--border-color);
+}
+

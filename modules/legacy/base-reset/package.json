@@ -1,0 +1,21 @@
+{
+  "name": "basscss-base-reset",
+  "version": "2.0.2",
+  "description": "Base element reset for Basscss",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/basscss/base-reset.git"
+  },
+  "keywords": [
+    "CSS",
+    "OOCSS",
+    "Basscss",
+    "Rework"
+  ],
+  "author": "Brent Jackson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/basscss/base-reset/issues"
+  },
+  "homepage": "https://github.com/basscss/base-reset"
+}

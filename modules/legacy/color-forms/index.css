@@ -1,0 +1,67 @@
+/* Basscss Color Forms */
+
+@import 'basscss-defaults';
+
+.field {
+  border-style: solid;
+  border-width: var(--border-width);
+  border-color: var(--border-color);
+  border-radius: var(--border-radius);
+}
+
+.field:focus,
+.field.is-focused {
+  outline: none;
+  border-color: var(--field-focus-color);
+  box-shadow: 0 0 0 2px color(var(--field-focus-color) a(.5));
+}
+
+.field:disabled,
+.field.is-disabled {
+  background-color: var(--darken-2);
+  opacity: .5;
+}
+
+.field:read-only:not(select),
+.field.is-read-only {
+  background-color: var(--darken-2);
+}
+
+
+.field.is-success {
+  border-color: var(--field-success-color);
+}
+
+.field.is-success:focus,
+.field.is-success.is-focused {
+  box-shadow: 0 0 0 2px color(var(--field-success-color) a(.5));
+}
+
+.field.is-warning {
+  border-color: var(--field-warning-color);
+}
+
+.field.is-warning:focus,
+.field.is-warning.is-focused {
+  box-shadow: 0 0 0 2px color(var(--field-warning-color) a(.5));
+}
+
+.field:invalid,
+.field.is-error {
+  border-color: var(--field-error-color);
+}
+
+.field:invalid:focus,
+.field:invalid.is-focused,
+.field.is-error:focus,
+.field.is-error.is-focused {
+  box-shadow: 0 0 0 2px color(var(--field-error-color) a(.5));
+}
+
+:root {
+  --field-focus-color: var(--blue);
+  --field-success-color: var(--green);
+  --field-warning-color: var(--yellow);
+  --field-error-color: var(--red);
+}
+

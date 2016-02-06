@@ -1,0 +1,24 @@
+{
+  "name": "basscss-color-tables",
+  "version": "1.0.3",
+  "description": "Table color styles module for Basscss",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/basscss/color-tables.git"
+  },
+  "keywords": [
+    "CSS",
+    "OOCSS",
+    "Basscss",
+    "Rework"
+  ],
+  "author": "Brent Jackson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/basscss/color-tables/issues"
+  },
+  "homepage": "https://github.com/basscss/color-tables",
+  "dependencies": {
+    "basscss-defaults": "^2.0.1"
+  }
+}

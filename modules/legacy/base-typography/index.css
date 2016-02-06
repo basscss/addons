@@ -1,0 +1,65 @@
+/* Basscss Base Typography */
+
+@import 'basscss-defaults';
+
+body {
+  font-family: var(--font-family);
+  line-height: var(--line-height);
+  font-size: var(--body-font-size);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--heading-font-family);
+  font-weight: var(--heading-font-weight);
+  line-height: var(--heading-line-height);
+  margin-top: var(--heading-margin-top);
+  margin-bottom: var(--heading-margin-bottom);
+}
+
+p {
+  margin-top: var(--paragraph-margin-top);
+  margin-bottom: var(--paragraph-margin-bottom);
+}
+
+dl, ol, ul {
+  margin-top: var(--list-margin-top);
+  margin-bottom: var(--list-margin-bottom);
+}
+
+pre, code, samp {
+  font-family: var(--monospace-font-family);
+  font-size: var(--pre-font-size);
+}
+
+pre {
+  margin-top: var(--pre-margin-top);
+  margin-bottom: var(--pre-margin-bottom);
+  overflow-x: scroll;
+}
+
+h1 { font-size: var(--h1) }
+h2 { font-size: var(--h2) }
+h3 { font-size: var(--h3) }
+h4 { font-size: var(--h4) }
+h5 { font-size: var(--h5) }
+h6 { font-size: var(--h6) }
+
+:root {
+  --font-family: 'Helvetica Neue', Helvetica, sans-serif;
+  --line-height: 1.5;
+  --body-font-size: 100%;
+  --heading-font-family: var(--font-family);
+  --heading-font-weight: bold;
+  --heading-line-height: 1.25;
+  --heading-margin-top: 1em;
+  --heading-margin-bottom: .5em;
+  --paragraph-margin-top: 0;
+  --paragraph-margin-bottom: var(--space-2);
+  --list-margin-top: 0;
+  --list-margin-bottom: var(--space-2);
+  --monospace-font-family: 'Source Code Pro', Consolas, monospace;
+  --pre-font-size: inherit;
+  --pre-margin-top: 0;
+  --pre-margin-bottom: var(--space-2);
+}
+

@@ -1,0 +1,23 @@
+{
+  "name": "basscss-color-progress",
+  "version": "1.0.0",
+  "description": "Progress element color module for Basscss",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/basscss/color-progress.git"
+  },
+  "keywords": [
+    "css",
+    "oocss",
+    "basscss"
+  ],
+  "author": "Brent Jackson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/basscss/color-progress/issues"
+  },
+  "homepage": "https://github.com/basscss/color-progress",
+  "dependencies": {
+    "basscss-defaults": "^2.0.1"
+  }
+}
