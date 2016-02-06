@@ -1,18 +1,18 @@
 {
   "name": "flex-object",
-  "version": "2.0.2",
+  "version": "2.0.3",
   "description": "CSS layout module based on flexbox",
   "style": "index.css",
   "author": "Brent Jackson",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/basscss/flex-object.git"
+    "url": "https://github.com/basscss/addons.git"
   },
   "bugs": {
-    "url": "https://github.com/basscss/flex-object/issues"
+    "url": "https://github.com/basscss/addons/issues"
   },
-  "homepage": "https://github.com/basscss/flex-object",
+  "homepage": "https://github.com/basscss/addons",
   "keywords": [
     "css",
     "oocss",
