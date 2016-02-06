@@ -1,10 +1,10 @@
 {
   "name": "basscss-btn",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Button module for Basscss",
   "repository": {
     "type": "git",
-    "url": "https://github.com/basscss/btn.git"
+    "url": "https://github.com/basscss/addons.git"
   },
   "keywords": [
     "basscss",
@@ -14,9 +14,9 @@
   "author": "Brent Jackson",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/basscss/btn/issues"
+    "url": "https://github.com/basscss/addons/issues"
   },
-  "homepage": "https://github.com/basscss/btn",
+  "homepage": "https://github.com/basscss/addons",
   "devDependencies": {
     "basscss-defaults": "^2.0.1"
   }
