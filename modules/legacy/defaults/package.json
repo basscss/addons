@@ -1,10 +1,10 @@
 {
   "name": "basscss-defaults",
-  "version": "2.1.1",
+  "version": "2.1.2",
   "description": "Default variables for Basscss",
   "repository": {
     "type": "git",
-    "url": "https://github.com/basscss/defaults.git"
+    "url": "https://github.com/basscss/addons.git"
   },
   "keywords": [
     "CSS",
@@ -15,9 +15,9 @@
   "author": "Brent Jackson",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/basscss/defaults/issues"
+    "url": "https://github.com/basscss/addons/issues"
   },
-  "homepage": "https://github.com/basscss/defaults",
+  "homepage": "https://github.com/basscss/addons",
   "dependencies": {
     "colors.css": "^2.0.4"
   }
