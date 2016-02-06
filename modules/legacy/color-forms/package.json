@@ -1,10 +1,10 @@
 {
   "name": "basscss-color-forms",
-  "version": "3.0.1",
+  "version": "3.0.2",
   "description": "Form color styles module for Basscss",
   "repository": {
     "type": "git",
-    "url": "https://github.com/basscss/color-forms.git"
+    "url": "https://github.com/basscss/addons.git"
   },
   "keywords": [
     "css",
@@ -14,9 +14,9 @@
   "author": "Brent Jackson",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/basscss/color-forms/issues"
+    "url": "https://github.com/basscss/addons/issues"
   },
-  "homepage": "https://github.com/basscss/color-forms",
+  "homepage": "https://github.com/basscss/addons",
   "dependencies": {
     "basscss-defaults": "^2.0.1"
   }
