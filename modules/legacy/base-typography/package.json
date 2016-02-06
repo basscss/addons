@@ -1,10 +1,10 @@
 {
   "name": "basscss-base-typography",
-  "version": "2.0.2",
+  "version": "2.0.3",
   "description": "Base typography styles for Basscss",
   "repository": {
     "type": "git",
-    "url": "https://github.com/basscss/base-typography.git"
+    "url": "https://github.com/basscss/addons.git"
   },
   "keywords": [
     "CSS",
@@ -15,9 +15,9 @@
   "author": "Brent Jackson",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/basscss/base-typography/issues"
+    "url": "https://github.com/basscss/addons/issues"
   },
-  "homepage": "https://github.com/basscss/base-typography",
+  "homepage": "https://github.com/basscss/addons",
   "dependencies": {
     "basscss-defaults": "^2.0.1"
   }
