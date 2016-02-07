@@ -1,0 +1,24 @@
+{
+  "name": "basscss-forms",
+  "version": "1.0.0",
+  "description": "Form styles module for Basscss",
+  "style": "index.css",
+  "keywords": [
+    "css",
+    "oocss",
+    "functional-css",
+    "fcss",
+    "atomic",
+    "basscss"
+  ],
+  "author": "Brent Jackson",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/basscss/addons.git"
+  },
+  "bugs": {
+    "url": "https://github.com/basscss/addons/issues"
+  },
+  "homepage": "https://github.com/basscss/addons"
+}
