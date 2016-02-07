@@ -1,0 +1,23 @@
+{
+  "name": "basscss-responsive-padding",
+  "version": "1.0.0",
+  "description": "Responsive padding utilities module for Basscss",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/basscss/addons.git"
+  },
+  "keywords": [
+    "css",
+    "oocss",
+    "fcss",
+    "functional-css",
+    "atomic",
+    "basscss"
+  ],
+  "author": "Brent Jackson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/basscss/addons/issues"
+  },
+  "homepage": "https://github.com/basscss/addons"
+}
