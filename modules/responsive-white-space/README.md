@@ -1,5 +1,7 @@
 # Basscss Responsive White Space
 
+** This module is deprecated in favor of basscss-responsive-margin and basscss-responsive-padding**
+
 Responsive white space margin and padding utilities module for Basscss - http://basscss.com
 
 Margin and padding utilities are based on a global white space scale defined with variables.
