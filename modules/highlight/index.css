@@ -124,8 +124,8 @@
   --hljs-comment: var(--gray);
   --hljs-keyword: var(--black);
   --hljs-number: var(--olive);
-  --hljs-string: var(--red);
-  --hljs-title: var(--red);
+  --hljs-string: var(--blue);
+  --hljs-title: var(--blue);
   --hljs-type: var(--navy);
   --hljs-tag: var(--navy);
   --hljs-attribute: var(--olive);

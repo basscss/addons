@@ -1,16 +1,19 @@
 {
   "name": "basscss-highlight",
-  "version": "0.1.1",
+  "version": "0.2.0-beta2",
   "description": "Highlight.js module for Basscss",
   "repository": {
     "type": "git",
     "url": "https://github.com/basscss/addons.git"
   },
   "keywords": [
-    "CSS",
-    "OOCSS",
-    "Basscss",
-    "Rework"
+    "css",
+    "oocss",
+    "fcss",
+    "functional-css",
+    "atomic",
+    "utility",
+    "basscss"
   ],
   "author": "Brent Jackson",
   "license": "MIT",
