@@ -1,0 +1,14 @@
+/* Basscss Darken */
+
+.bg-darken-1 { background-color: var(--darken-1) }
+.bg-darken-2 { background-color: var(--darken-2) }
+.bg-darken-3 { background-color: var(--darken-3) }
+.bg-darken-4 { background-color: var(--darken-4) }
+
+:root {
+  --darken-1: rgba(0, 0, 0, .0625);
+  --darken-2: rgba(0, 0, 0, .125);
+  --darken-3: rgba(0, 0, 0, .25);
+  --darken-4: rgba(0, 0, 0, .5);
+}
+
