@@ -1,5 +1,7 @@
 /* Basscss UI Utility Button Sizes */
 
+@import 'basscss-defaults';
+
 .btn-small {
   padding: var(--button-small-padding-y) var(--button-small-padding-x);
 }
@@ -13,8 +15,6 @@
   padding-right: var(--button-narrow-padding-x);
 }
 
-
-@import 'basscss-defaults';
 
 :root {
   --button-small-padding-y: .25rem;

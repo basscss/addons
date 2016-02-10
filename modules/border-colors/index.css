@@ -1,5 +1,7 @@
 /* Basscss Border Colors */
 
+@import 'basscss-defaults';
+
 .border-black  { border-color: var(--black) }
 .border-gray   { border-color: var(--gray) }
 .border-silver { border-color: var(--silver) }
@@ -29,6 +31,4 @@
 .border-lighten-2 { border-color: var(--lighten-2) }
 .border-lighten-3 { border-color: var(--lighten-3) }
 .border-lighten-4 { border-color: var(--lighten-4) }
-
-@import 'basscss-defaults';
 
