@@ -1,6 +1,6 @@
 {
   "name": "basscss-progress",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Custom progress element module for Basscss",
   "repository": {
     "type": "git",

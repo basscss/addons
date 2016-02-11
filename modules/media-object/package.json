@@ -1,6 +1,6 @@
 {
   "name": "basscss-media-object",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Media object module for Basscss",
   "scripts": {
     "css": "cssnext index.css css/index.css",
