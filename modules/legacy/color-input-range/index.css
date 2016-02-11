@@ -1,5 +1,7 @@
 /* Basscss Color Input Range */
 
+@import 'basscss-defaults';
+
 .range-light {
   color: inherit;
   background-color: transparent;
@@ -44,6 +46,3 @@
   border: 0;
   box-shadow: 0 0 0 3px var(--darken-3);
 }
-
-@import 'basscss-defaults';
-

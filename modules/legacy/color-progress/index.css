@@ -1,5 +1,7 @@
 /* Basscss Color Progress */
 
+@import 'basscss-defaults';
+
 .progress {
   background-color: var(--darken-2);
   border: 0;
@@ -19,7 +21,4 @@
 .progress::-moz-progress-bar {
   background-color: currentColor;
 }
-
-
-@import 'basscss-defaults';
 

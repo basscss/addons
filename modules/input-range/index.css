@@ -1,5 +1,7 @@
 /* Basscss Input Range */
 
+@import 'basscss-defaults';
+
 input[type=range] {
   vertical-align: middle;
   background-color: transparent;
@@ -42,8 +44,6 @@ input[type=range]::-moz-range-track {
   height: var(--range-track-height);
   cursor: pointer;
 }
-
-@import 'basscss-defaults';
 
 :root {
   --range-thumb-width: var(--form-field-padding-x);
