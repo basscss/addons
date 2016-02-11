@@ -1,5 +1,7 @@
 /* Basscss Media Object */
 
+@import 'basscss-defaults';
+
 .media,
 .sm-media,
 .md-media,
@@ -41,6 +43,3 @@
 @media (--breakpoint-lg) {
   .lg-media { display: flex }
 }
-
-@import 'basscss-defaults';
-

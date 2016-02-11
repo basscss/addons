@@ -1,5 +1,7 @@
 /* Basscss Progress */
 
+@import 'basscss-defaults';
+
 progress {
   display: block;
   width: 100%;
@@ -8,6 +10,3 @@ progress {
   overflow: hidden;
   -webkit-appearance: none;
 }
-
-@import 'basscss-defaults';
-
