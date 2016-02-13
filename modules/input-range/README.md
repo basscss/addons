@@ -1,10 +1,8 @@
 
-This module styles base range inputs to match other form styles in Basscss.
-
-Use this with the `basscss-color-input-range` module.
+This module styles range inputs to match other form styles in Basscss.
 
 ```html
-<input type="range" class="full-width range-light">
-<input type="range" class="full-width blue range-light">
+<input type="range" class="input-range">
+<input type="range" class="input-range blue">
 ```
 

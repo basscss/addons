@@ -1,28 +1,33 @@
 {
   "name": "basscss-input-range",
-  "version": "2.0.2",
+  "version": "3.0.0",
   "description": "Custom input range module for Basscss",
+  "scripts": {
+    "prepublish": "mkdir -p css && postcss index.css -u postcss-custom-media -u postcss-custom-properties -u postcss-calc -u autoprefixer -o css/input-range.css"
+  },
+  "devDependencies": {
+    "autoprefixer": "^6.3.1",
+    "postcss-calc": "^5.2.0",
+    "postcss-cli": "^2.5.0",
+    "postcss-custom-media": "^5.0.1",
+    "postcss-custom-properties": "^5.0.0"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/basscss/addons.git"
   },
   "keywords": [
-    "CSS",
-    "OOCSS",
-    "Basscss",
-    "Rework"
+    "basscss",
+    "css",
+    "oocss",
+    "fcss",
+    "functional-css",
+    "atomic"
   ],
   "author": "Brent Jackson",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/basscss/addons/issues"
   },
-  "homepage": "https://github.com/basscss/addons",
-  "basscss": {
-    "category": "color",
-    "optional": true
-  },
-  "dependencies": {
-    "basscss-defaults": "^2.0.1"
-  }
+  "homepage": "https://github.com/basscss/addons"
 }
