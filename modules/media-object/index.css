@@ -1,13 +1,11 @@
 /* Basscss Media Object */
 
-@import 'basscss-defaults';
-
 .media,
 .sm-media,
 .md-media,
 .lg-media {
-  margin-left: -var(--space-1);
-  margin-right: -var(--space-1);
+  margin-left: -var(--media-object-space);
+  margin-right: -var(--media-object-space);
 }
 
 .media {
@@ -18,14 +16,14 @@
   align-items: center;
 }
 
-.media-bottom { 
+.media-bottom {
   align-items: flex-end;
 }
 
 .media-img,
 .media-body {
-  padding-left: var(--space-1);
-  padding-right: var(--space-1);
+  padding-left: var(--media-object-space);
+  padding-right: var(--media-object-space);
 }
 
 .media-body {
@@ -43,3 +41,13 @@
 @media (--breakpoint-lg) {
   .lg-media { display: flex }
 }
+
+@custom-media --breakpoint-sm (min-width: 40em);
+@custom-media --breakpoint-md (min-width: 52em);
+@custom-media --breakpoint-lg (min-width: 64em);
+
+:root {
+  --space-1: .5rem;
+  --media-object-space: var(--space);
+}
+

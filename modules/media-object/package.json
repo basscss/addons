@@ -2,30 +2,16 @@
   "name": "basscss-media-object",
   "version": "1.0.6",
   "description": "Media object module for Basscss",
-  "scripts": {
-    "css": "cssnext index.css css/index.css",
-    "start": "doctor-mark"
-  },
   "repository": {
     "type": "git",
     "url": "https://github.com/basscss/addons.git"
   },
   "keywords": [
-    "CSS",
-    "OOCSS",
-    "Basscss"
   ],
   "author": "Brent Jackson",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/basscss/addons/issues"
   },
-  "homepage": "https://github.com/basscss/addons",
-  "devDependencies": {
-    "cssnext": "^1.1.0",
-    "doctor-mark": "^1.0.0"
-  },
-  "dependencies": {
-    "basscss-defaults": "^2.0.1"
-  }
+  "homepage": "https://github.com/basscss/addons"
 }
