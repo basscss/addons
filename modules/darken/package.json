@@ -1,8 +1,16 @@
 {
   "name": "basscss-darken",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Darken background-color styles module for Basscss",
-  "style": "index.css",
+  "scripts": {
+    "prepublish": "mkdir -p css && postcss index.css -u postcss-custom-media -u postcss-custom-properties -u autoprefixer -o css/darken.css"
+  },
+  "devDependencies": {
+    "autoprefixer": "^6.3.1",
+    "postcss-cli": "^2.5.0",
+    "postcss-custom-media": "^5.0.1",
+    "postcss-custom-properties": "^5.0.0"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/basscss/addons.git"
