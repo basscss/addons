@@ -1,6 +1,6 @@
 /* Basscss Border Colors */
 
-@import 'basscss-defaults';
+@import 'colors.css/myth/variables';
 
 .border-black  { border-color: var(--black) }
 .border-gray   { border-color: var(--gray) }
@@ -21,14 +21,4 @@
 .border-fuchsia { border-color: var(--fuchsia) }
 .border-purple  { border-color: var(--purple) }
 .border-maroon  { border-color: var(--maroon) }
-
-.border-darken-1 { border-color: var(--darken-1) }
-.border-darken-2 { border-color: var(--darken-2) }
-.border-darken-3 { border-color: var(--darken-3) }
-.border-darken-4 { border-color: var(--darken-4) }
-
-.border-lighten-1 { border-color: var(--lighten-1) }
-.border-lighten-2 { border-color: var(--lighten-2) }
-.border-lighten-3 { border-color: var(--lighten-3) }
-.border-lighten-4 { border-color: var(--lighten-4) }
 
