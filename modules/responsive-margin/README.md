@@ -51,4 +51,20 @@ Change or reset default margins using the global white space scale.
 Negative x-axis margins are used to offset padding.
 Margin auto is used to horizontally center block-level elements with a set width.
 
+## Larger margins at wider breakpoints
+
+```html
+<div class="m1 sm-m2 md-m3 lg-m4">Hamburger</div>
+```
+
+## Larger grid gutters at wider breakpoints
+
+When combined with basscss-grid and basscss-responsive-padding, grid gutters can be changed at different breakpoints.
+
+```html
+<div class="clearfix mxn2 md-mxn3">
+  <div class="col col-6 px2 md-px3">Column</div>
+  <div class="col col-6 px2 md-px3">Column</div>
+</div>
+```
 
