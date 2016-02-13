@@ -48,6 +48,6 @@
 
 :root {
   --space-1: .5rem;
-  --media-object-space: var(--space);
+  --media-object-space: var(--space-1);
 }
 
