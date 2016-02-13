@@ -1,7 +1,5 @@
 /* Basscss Btn Primary */
 
-@import 'basscss-defaults';
-
 .btn-primary {
   color: var(--button-color);
   background-color: var(--button-background-color);
@@ -24,8 +22,12 @@
 }
 
 :root {
-  --button-color: var(--white);
-  --button-background-color: var(--blue)
+  --blue: #0074d9;
+  --button-color: #fff;
+  --button-background-color: var(--blue);
+  --border-radius: 3px;
+  --darken-1: rgba(0, 0, 0, .0625);
+  --darken-2: rgba(0, 0, 0, .125);
+  --darken-3: rgba(0, 0, 0, .25);
 }
-
 
