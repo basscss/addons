@@ -1,6 +1,6 @@
 /* Basscss Colors */
 
-@import 'basscss-defaults';
+@import 'colors.css/myth/variables';
 
 .black  { color: var(--black) }
 .gray   { color: var(--gray) }
