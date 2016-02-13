@@ -1,10 +1,8 @@
 
-This module styles base progress elements to better match other styles in Basscss.
-
-Use this with the `basscss-color-progress` module to style colors.
+This module styles progress elements to better match other form styles in Basscss.
 
 ```html
-<progress value="0.375">0.375</progress>
-<progress value="0.5">0.5</progress>
+<progress value="0.375" class="progress">0.375</progress>
+<progress value="0.5" class="progress">0.5</progress>
 ```
 

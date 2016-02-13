@@ -1,12 +1,34 @@
 /* Basscss Progress */
 
-@import 'basscss-defaults';
-
-progress {
+.progress {
   display: block;
   width: 100%;
   height: calc( var(--form-field-height) / 4 );
   margin: var(--form-field-padding-y) 0;
   overflow: hidden;
+  background-color: var(--darken-2);
+  border: 0;
+  border-radius: 10000px;
   -webkit-appearance: none;
 }
+
+.progress::-webkit-progress-bar {
+  -webkit-appearance: none;
+  background-color: var(--darken-2)
+}
+
+.progress::-webkit-progress-value {
+  -webkit-appearance: none;
+  background-color: currentcolor;
+}
+
+.progress::-moz-progress-bar {
+  background-color: currentcolor;
+}
+
+:root {
+  --form-field-height: 2.25rem;
+  --form-field-padding-y: .5rem;
+  --darken-2: rgba(0, 0, 0, .125);
+}
+

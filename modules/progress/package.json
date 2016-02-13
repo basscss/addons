@@ -1,23 +1,32 @@
 {
   "name": "basscss-progress",
-  "version": "2.0.1",
+  "version": "3.0.0",
   "description": "Custom progress element module for Basscss",
+  "scripts": {
+    "prepublish": "mkdir -p css && postcss index.css -u postcss-custom-properties -u postcss-calc -u autoprefixer -o css/progress.css"
+  },
+  "devDependencies": {
+    "autoprefixer": "^6.3.1",
+    "postcss-calc": "^5.2.0",
+    "postcss-cli": "^2.5.0",
+    "postcss-custom-properties": "^5.0.0"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/basscss/addons.git"
   },
   "keywords": [
+    "basscss",
     "css",
     "oocss",
-    "basscss"
+    "fcss",
+    "functional-css",
+    "atomic"
   ],
   "author": "Brent Jackson",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/basscss/addons/issues"
   },
-  "homepage": "https://github.com/basscss/addons",
-  "dependencies": {
-    "basscss-defaults": "^2.0.1"
-  }
+  "homepage": "https://github.com/basscss/addons"
 }
