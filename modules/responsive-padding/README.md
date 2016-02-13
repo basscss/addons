@@ -48,4 +48,9 @@ These styles follow the same breakpoint prefix convention as other Basscss modul
 
 Change or reset default padding using the global white space scale.
 
+## Larger padding at wider breakpoints
+
+```html
+<div class="p1 sm-p2 md-p3 lg-p4">Hamburger</div>
+```
 
