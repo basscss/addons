@@ -117,10 +117,8 @@
 }
 
 
+/* Mapped colors */
 :root {
-  --monospace-font-family: 'Source Code Pro', Consolas, monospace;
-
-  /* Mapped colors */
   --hljs-comment: var(--gray);
   --hljs-keyword: var(--black);
   --hljs-number: var(--olive);
