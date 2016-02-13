@@ -3,7 +3,7 @@
   "version": "2.0.0",
   "description": "Background color styles module for Basscss",
   "scripts": {
-    "prepublish": "mkdir -p css && postcss index.css -u postcss-import -u postcss-custom-media -u postcss-custom-properties -u autoprefixer -o css/all.css"
+    "prepublish": "mkdir -p css && postcss index.css -u postcss-import -u postcss-custom-media -u postcss-custom-properties -u postcss-remove-root -u autoprefixer -o css/background-colors.css"
   },
   "dependencies": {
     "colors.css": "^2.3.0"
@@ -13,7 +13,8 @@
     "postcss-cli": "^2.5.0",
     "postcss-custom-media": "^5.0.1",
     "postcss-custom-properties": "^5.0.0",
-    "postcss-import": "^8.0.2"
+    "postcss-import": "^8.0.2",
+    "postcss-remove-root": "0.0.2"
   },
   "repository": {
     "type": "git",
