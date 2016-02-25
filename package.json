@@ -1,6 +1,6 @@
 {
   "name": "basscss-addons",
-  "version": "1.0.0-beta2",
+  "version": "1.0.0-beta3",
   "description": "Optional modules to extend Basscss",
   "keywords": [
     "basscss",
@@ -10,5 +10,8 @@
     "utility"
   ],
   "author": "Brent Jackson",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "colors.css": "^3.0.0"
+  }
 }
