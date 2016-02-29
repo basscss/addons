@@ -1,6 +1,6 @@
 /* Basscss Border Colors */
 
-@import 'colors.css/myth/variables';
+@import 'colors.css/src/_variables.css';
 
 .border-black  { border-color: var(--black) }
 .border-gray   { border-color: var(--gray) }
