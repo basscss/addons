@@ -1,12 +1,12 @@
 {
   "name": "basscss-highlight",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Highlight.js module for Basscss",
   "scripts": {
     "prepublish": "mkdir -p css && postcss index.css -u postcss-import -u postcss-custom-media -u postcss-custom-properties -u postcss-remove-root -u autoprefixer -o css/highlight.css"
   },
   "dependencies": {
-    "colors.css": "^2.3.0"
+    "colors.css": "^3.0.0"
   },
   "devDependencies": {
     "autoprefixer": "^6.3.1",

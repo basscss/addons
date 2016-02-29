@@ -1,6 +1,6 @@
 /* Basscss Highlight */
 
-@import "colors.css/myth/variables";
+@import "colors.css/src/_variables.css";
 
 .hljs {
   -webkit-text-size-adjust: none;
