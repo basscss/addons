@@ -1,6 +1,6 @@
 /* Basscss Background Colors */
 
-@import 'colors.css/myth/variables';
+@import 'colors.css/src/_variables.css';
 
 .bg-black  { background-color: var(--black) }
 .bg-gray   { background-color: var(--gray) }
