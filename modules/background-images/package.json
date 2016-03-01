@@ -1,6 +1,6 @@
 {
   "name": "basscss-background-images",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Background image utilities module for Basscss",
   "scripts": {
     "prepublish": "mkdir -p css && postcss index.css -u autoprefixer -o css/background-images.css"
