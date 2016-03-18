@@ -17,6 +17,7 @@
   margin-bottom: 1rem;
   border: 1px solid #ccc;
   border-radius: 3px;
+  box-sizing: border-box;
 }
 
 .select {
@@ -29,6 +30,7 @@
   margin-bottom: 1rem;
   border: 1px solid #ccc;
   border-radius: 3px;
+  box-sizing: border-box;
 }
 
 .textarea {
@@ -40,6 +42,5 @@
   margin-bottom: 1rem;
   border: 1px solid #ccc;
   border-radius: 3px;
+  box-sizing: border-box;
 }
-
-
