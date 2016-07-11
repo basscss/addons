@@ -1,5 +1,5 @@
 
-@media (--breakpoint-sm) {
+@media (--breakpoint-lg) {
 
   .lg-inline       { display: inline }
   .lg-block        { display: block }

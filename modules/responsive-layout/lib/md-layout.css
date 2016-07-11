@@ -1,5 +1,5 @@
 
-@media (--breakpoint-sm) {
+@media (--breakpoint-md) {
 
   .md-inline       { display: inline }
   .md-block        { display: block }
