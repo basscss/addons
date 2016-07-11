@@ -1,0 +1,7 @@
+
+@media (--breakpoint-sm) {
+  .sm-left-align   { text-align: left }
+  .sm-center       { text-align: center }
+  .sm-right-align  { text-align: right }
+  .sm-justify      { text-align: justify }
+}

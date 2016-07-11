@@ -1,0 +1,7 @@
+
+@media (--breakpoint-lg) {
+  .lg-left-align   { text-align: left }
+  .lg-center       { text-align: center }
+  .lg-right-align  { text-align: right }
+  .lg-justify      { text-align: justify }
+}

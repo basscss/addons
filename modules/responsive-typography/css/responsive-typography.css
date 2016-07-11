@@ -1,0 +1,24 @@
+/* Basscss Responsive Typography */
+
+@media (min-width: 40em) {
+  .sm-left-align   { text-align: left }
+  .sm-center       { text-align: center }
+  .sm-right-align  { text-align: right }
+  .sm-justify      { text-align: justify }
+}
+
+@media (min-width: 52em) {
+  .md-left-align   { text-align: left }
+  .md-center       { text-align: center }
+  .md-right-align  { text-align: right }
+  .md-justify      { text-align: justify }
+}
+
+@media (min-width: 64em) {
+  .lg-left-align   { text-align: left }
+  .lg-center       { text-align: center }
+  .lg-right-align  { text-align: right }
+  .lg-justify      { text-align: justify }
+}
+
+
