@@ -23,6 +23,10 @@ Using https://npmcdn.com, each module is available in compiled format.
 
 - [responsive-margin](/modules/responsive-margin)
 - [responsive-padding](/modules/responsive-padding)
+- [responsive-layout](/modules/responsive-layout)
+- [responsive-position](/modules/responsive-position)
+- [responsive-typography](/modules/responsive-typography)
+- [responsive-type-scale](/modules/responsive-type-scale)
 - [forms](/modules/forms)
 - [btn](/modules/btn)
 - [btn-outline](/modules/btn-outline)
