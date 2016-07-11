@@ -1,0 +1,18 @@
+
+@media (--breakpoint-sm) {
+
+  .lg-inline       { display: inline }
+  .lg-block        { display: block }
+  .lg-inline-block { display: inline-block }
+  .lg-table        { display: table }
+  .lg-table-cell   { display: table-cell }
+
+  .lg-overflow-hidden { overflow: hidden }
+  .lg-overflow-scroll { overflow: scroll }
+  .lg-overflow-auto   { overflow: auto }
+
+  .lg-left  { float: left }
+  .lg-right { float: right }
+
+}
+
