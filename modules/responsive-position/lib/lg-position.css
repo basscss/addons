@@ -1,0 +1,11 @@
+
+@media (--breakpoint-lg) {
+  .lg-relative { position: relative }
+  .lg-absolute { position: absolute }
+  .lg-fixed    { position: fixed }
+
+  .lg-top-0    { top: 0 }
+  .lg-right-0  { right: 0 }
+  .lg-bottom-0 { bottom: 0 }
+  .lg-left-0   { left: 0 }
+}

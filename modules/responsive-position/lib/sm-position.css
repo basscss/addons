@@ -1,0 +1,11 @@
+
+@media (--breakpoint-sm) {
+  .sm-relative { position: relative }
+  .sm-absolute { position: absolute }
+  .sm-fixed    { position: fixed }
+
+  .sm-top-0    { top: 0 }
+  .sm-right-0  { right: 0 }
+  .sm-bottom-0 { bottom: 0 }
+  .sm-left-0   { left: 0 }
+}
