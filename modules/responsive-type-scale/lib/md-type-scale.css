@@ -1,0 +1,12 @@
+
+@media (--breakpoint-md) {
+  .md-h00 { font-size: var(--h00) }
+  .md-h0 { font-size: var(--h0) }
+  .md-h1 { font-size: var(--h1) }
+  .md-h2 { font-size: var(--h2) }
+  .md-h3 { font-size: var(--h3) }
+  .md-h4 { font-size: var(--h4) }
+  .md-h5 { font-size: var(--h5) }
+  .md-h6 { font-size: var(--h6) }
+}
+

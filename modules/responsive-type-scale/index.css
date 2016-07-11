@@ -1,0 +1,15 @@
+/* Basscss Responsive Type Scale */
+
+@import "./lib/sm-type-scale";
+@import "./lib/md-type-scale";
+@import "./lib/lg-type-scale";
+
+@custom-media --breakpoint-sm (min-width: 40em);
+@custom-media --breakpoint-md (min-width: 52em);
+@custom-media --breakpoint-lg (min-width: 64em);
+
+:root {
+  --h00: 4rem;
+  --h0: 3rem;
+}
+
