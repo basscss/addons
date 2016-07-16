@@ -1,6 +1,6 @@
 /* Basscss Highlight */
 
-@import "colors.css/myth/variables";
+@import "colors.css/src/_variables.css";
 
 .highlight-dark .hljs {
   color: white;
