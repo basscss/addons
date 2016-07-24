@@ -27,6 +27,7 @@ Using https://npmcdn.com, each module is available in compiled format.
 - [responsive-position](/modules/responsive-position)
 - [responsive-typography](/modules/responsive-typography)
 - [responsive-type-scale](/modules/responsive-type-scale)
+- [responsive-border](/modules/responsive-border)
 - [forms](/modules/forms)
 - [btn](/modules/btn)
 - [btn-outline](/modules/btn-outline)
@@ -44,4 +45,3 @@ Using https://npmcdn.com, each module is available in compiled format.
 - [media-object](/modules/media-object)
 - [highlight](/modules/highlight)
 - [highlight-dark](/modules/highlight-dark)
-
