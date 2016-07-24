@@ -1,0 +1,14 @@
+/* Basscss Responsive Border */
+
+@import "./lib/sm-border";
+@import "./lib/md-border";
+@import "./lib/lg-border";
+
+@custom-media --breakpoint-sm (min-width: 40em);
+@custom-media --breakpoint-md (min-width: 52em);
+@custom-media --breakpoint-lg (min-width: 64em);
+
+:root {
+  --border-width: 1px;
+  --border-radius: 3px;
+}
