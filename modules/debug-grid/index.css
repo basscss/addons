@@ -1,0 +1,14 @@
+/* Basscss Debug Grid */
+
+.debug-grid {
+  background-image:
+    linear-gradient(transparent 7px, var(--debug-grid-color) 8px),
+    linear-gradient(90deg, transparent 7px, var(--debug-grid-color) 8px);
+  background-position: calc(50% - 4px) top;
+  background-size: 8px 8px;
+}
+
+:root {
+  --debug-grid-color: rgba(0, 255, 255, .25);
+}
+
