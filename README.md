@@ -13,10 +13,10 @@ npm i -D basscss-responsive-margin
 
 ## CDN Links
 
-Using https://npmcdn.com, each module is available in compiled format.
+Using https://unpkg.com, each module is available in compiled format.
 
 ```
-<link href="https://npmcdn.com/basscss-responsive-margin@1.1.0/css/responsive-margin.css" rel="stylesheet">
+<link href="https://unpkg.com/basscss-responsive-margin@1.1.0/css/responsive-margin.css" rel="stylesheet">
 ```
 
 ## Modules
