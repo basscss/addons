@@ -8,4 +8,6 @@
   .lg-right-0  { right: 0 }
   .lg-bottom-0 { bottom: 0 }
   .lg-left-0   { left: 0 }
+  
+  .lg-static   { position: static }
 }
