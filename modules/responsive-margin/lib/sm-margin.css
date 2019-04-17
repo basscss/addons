@@ -41,10 +41,10 @@
   .sm-mx4 { margin-left:   var(--space-4); margin-right:  var(--space-4) }
   .sm-my4 { margin-top:    var(--space-4); margin-bottom: var(--space-4) }
 
-  .sm-mxn1 { margin-left: -var(--space-1); margin-right: -var(--space-1) }
-  .sm-mxn2 { margin-left: -var(--space-2); margin-right: -var(--space-2) }
-  .sm-mxn3 { margin-left: -var(--space-3); margin-right: -var(--space-3) }
-  .sm-mxn4 { margin-left: -var(--space-4); margin-right: -var(--space-4) }
+  .sm-mxn1 { margin-left: calc(var(--space-1) * -1); margin-right: calc(var(--space-1) * -1) }
+  .sm-mxn2 { margin-left: calc(var(--space-2) * -1); margin-right: calc(var(--space-2) * -1) }
+  .sm-mxn3 { margin-left: calc(var(--space-3) * -1); margin-right: calc(var(--space-3) * -1) }
+  .sm-mxn4 { margin-left: calc(var(--space-4) * -1); margin-right: calc(var(--space-4) * -1) }
 
   .sm-ml-auto { margin-left:  auto }
   .sm-mr-auto { margin-right: auto }
