@@ -8,4 +8,6 @@
   .md-right-0  { right: 0 }
   .md-bottom-0 { bottom: 0 }
   .md-left-0   { left: 0 }
+  
+  .md-static   { position: static }
 }
